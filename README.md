@@ -3,27 +3,53 @@
 ## AIM
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
-## Entity Relationship Diagram
-
-Include your ER diagram here
-
 ## DESIGN STEPS
 
 ### STEP 1:
+Clone the problem from github.
 
 ### STEP 2:
+Create a new app.
 
 ### STEP 3:
+Enter the code for admin.py and models.py
 
-Write your own steps
+### step 4:
+Create django app and add employee details.
+
 
 ## PROGRAM
 
-Include your code here
+```python
+models.py 
+
+from django.db import models
+from django.contrib import admin
+
+
+class Employee(models.Model):
+    referencenumber=models.CharField(max_length=20,help_text="reference number")
+    name=models.CharField(max_length=100)
+    age=models.IntegerField()
+    email=models.EmailField()
+
+
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display=('referencenumber','name','age','email')
+
+admin.py
+
+from django.contrib import admin
+from myapp.models import Employee,EmployeeAdmin
+admin.site.register(Employee,EmployeeAdmin)
+
+
+```
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+![output](./ormoutput.png)
 
 
 ## RESULT
+Program executed successfully.
