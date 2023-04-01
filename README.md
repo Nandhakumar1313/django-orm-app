@@ -48,7 +48,8 @@ admin.site.register(Employee,EmployeeAdmin)
 
 ## OUTPUT
 
-![output](./ormoutput.png)
+![ormoutput](https://user-images.githubusercontent.com/120230694/229268047-2c449560-4fbd-4313-bd92-7f72b775a6fa.png)
+
 
 
 ## RESULT
