@@ -27,21 +27,21 @@ from django.db import models
 from django.contrib import admin
 
 
-class Employee(models.Model):
-    referencenumber=models.CharField(max_length=20,help_text="reference number")
+class Student(models.Model):
+    referencenumber=models.CharField(primary_key=true,max_length=20,help_text="reference number")
     name=models.CharField(max_length=100)
     age=models.IntegerField()
     email=models.EmailField()
 
 
-class EmployeeAdmin(admin.ModelAdmin):
+class StudentAdmin(admin.ModelAdmin):
     list_display=('referencenumber','name','age','email')
 
 admin.py
 
 from django.contrib import admin
-from myapp.models import Employee,EmployeeAdmin
-admin.site.register(Employee,EmployeeAdmin)
+from myapp.models import Student,StudentAdmin
+admin.site.register(Student,StudentAdmin)
 
 
 ```
