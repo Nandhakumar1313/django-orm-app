@@ -47,8 +47,9 @@ admin.site.register(Employee,EmployeeAdmin)
 ```
 
 ## OUTPUT
+![Screenshot (35)](https://user-images.githubusercontent.com/120230694/230375182-341aa2bb-2412-48eb-b8a9-45c1d9def7e2.png)
 
-![ormoutput](https://user-images.githubusercontent.com/120230694/229268047-2c449560-4fbd-4313-bd92-7f72b775a6fa.png)
+
 
 
 
