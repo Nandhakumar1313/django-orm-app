@@ -48,7 +48,11 @@ admin.site.register(Student,StudentAdmin)
 
 ## OUTPUT
 ### SERVER OUTPUT
-![Screenshot (35)](https://user-images.githubusercontent.com/120230694/230375182-341aa2bb-2412-48eb-b8a9-45c1d9def7e2.png)
+![Screenshot (42)](https://user-images.githubusercontent.com/120230694/230915723-de20f843-c043-4938-ace2-a6ba3fca7a3a.png)
+
+### CLIENT OUTPUT
+![Screenshot (41)](https://user-images.githubusercontent.com/120230694/230916021-897c2327-ce84-4820-b7ae-ee3971bad99c.png)
+
 
 
 
