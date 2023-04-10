@@ -47,7 +47,7 @@ admin.site.register(Student,StudentAdmin)
 ```
 
 ## OUTPUT
-###SERVER OUTPUT
+### SERVER OUTPUT
 ![Screenshot (35)](https://user-images.githubusercontent.com/120230694/230375182-341aa2bb-2412-48eb-b8a9-45c1d9def7e2.png)
 
 
