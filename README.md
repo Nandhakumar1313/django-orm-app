@@ -15,7 +15,7 @@ Create a new app.
 Enter the code for admin.py and models.py
 
 ### step 4:
-Create django app and add employee details.
+Create django app and add student details.
 
 
 ## PROGRAM
